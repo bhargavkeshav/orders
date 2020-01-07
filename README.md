@@ -9,7 +9,9 @@ This build is built, tested and released by travis.
 Checkout the API Spec [here](http://microservices-demo.github.io/api/index?url=https://raw.githubusercontent.com/microservices-demo/orders/master/api-spec/orders.json)
 
 # Build
+
 test-build
+
 
 ## Jar
 `mvn -DskipTests package`
@@ -27,4 +29,5 @@ test-build
 `curl http://localhost:8082`
 
 # Push
-`GROUP=weaveworksdemos COMMIT=test ./scripts/push.sh`
+`GROUP=weaveworksdemos COMMIT=test ./scripts/push.sh
+
